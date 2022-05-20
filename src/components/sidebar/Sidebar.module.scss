@@ -1,7 +1,7 @@
 .sidebar {
   position: absolute;
-  width: 106px;
-  height: 1127px;
+  width: 4%;
+  height: 100%;
   left: 0px;
   top: 0px;
   bottom: 0px;
@@ -22,7 +22,7 @@
 }
 
 .sidebarNav {
-  margin-top: -43rem;
+  margin-top: -40rem;
   margin-bottom: 3rem;
 
 }
@@ -42,6 +42,7 @@
   opacity: 0.5;
   font-size: 15px;
   font-weight: 100;
+  
 
   &Active {
     @extend .sidebarNavLink;
@@ -53,6 +54,15 @@ button {
   background-color: #60141D;
   border-radius: 20%;
 
+}
+
+.sidebarBurgerMenu {
+  top: 0px;
+
+}
+
+.sidebarSettingsButtons {
+  bottom: 0px;
 }
 
 
