@@ -43,8 +43,6 @@ export default function Sidebar() {
               <Link className={styles.sidebarMenuButton} to={`/${menuButtonRoute.key.toString()}`}>
                 <button>
                 <img src={menuButtonRoute.value} alt="add"></img>
-                //TODO - must sort out naming as some are not user friendly
-                  {/* {menuButtonRoute.key.charAt(0).toUpperCase() + menuButtonRoute.key.slice(1)} */}
                 </button>
               </Link>
             </div>
@@ -60,8 +58,6 @@ export default function Sidebar() {
                 <Link className={location.name === `/${sidebarNavLink}` ? styles.sidebarNavLink : styles.sidebarNavLinkActive} to={`/${sidebarNavLink.key.toString()}`}>
                   <button>
                     <img src={sidebarNavLink.value} alt="add"></img>
-                    //TODO - must sort out naming as some are not user friendly
-                    {/* {sidebarNavLink.key.charAt(0).toUpperCase() + sidebarNavLink.key.slice(1)} */}
                   </button>
                 </Link>
               </li>
@@ -76,8 +72,6 @@ export default function Sidebar() {
             <Link to={`/${settingsNav.key.toString()}`}>
             <button>
               <img src={settingsNav.value} alt="add"></img>
-              //TODO - must sort out naming as some are not user friendly
-              {/* {settingsNav.key.charAt(0).toUpperCase() + settingsNav.key.slice(1)} */}
             </button>
             </Link>
           </div>
